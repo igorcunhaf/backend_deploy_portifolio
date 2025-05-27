@@ -4,13 +4,14 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // Habilitar CORS para o frontend em http://localhost:3001
+  // Habilitar CORS para ambiente de produção e dev
   app.enableCors({
-    origin: 'http://localhost:3001',
+    origin: '*',
     credentials: true,
-    allowedHeaders: ['Content-Type', 'Authorization'], // necessário para permitir envio do token
+    allowedHeaders: ['Content-Type', 'Authorization'],
   });
 
-  await app.listen(process.env.PORT ?? 3000);
+  // Corrigido: escutar em 0.0.0.0 para funcionar no Railway
+  await app.listen(process.env.PORT || 3000, '0.0.0.0');
 }
 bootstrap();
