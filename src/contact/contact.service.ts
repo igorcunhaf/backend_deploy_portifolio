@@ -15,4 +15,9 @@ export class ContactService {
     const msg = this.contactRepo.create(createContactDto);
     return this.contactRepo.save(msg);
   }
+
+  findAll(): Promise<ContactMessage[]> {
+    return this.contactRepo.find({ order: { createdAt: 'DESC' } }); // Ordena pelas mais recentes
+  }
 }
+
