@@ -16,7 +16,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## ⚙️ Instalação
+## Instalação
 
 1. **Clone o repositório:**
    ```bash
