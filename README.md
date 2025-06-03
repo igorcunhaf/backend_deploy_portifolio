@@ -5,7 +5,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - **Node.js** + **NestJS**
 - **TypeScript**
@@ -51,7 +51,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 🏹 Scripts disponíveis
+## Scripts disponíveis
 
 - `npm run start:dev` — Inicia o servidor com hot reload
 - `npm run build` — Compila para produção
@@ -62,7 +62,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 📚 Funcionalidades
+## Funcionalidades
 
 - CRUD de **Projetos** e **Posts**
 - Gerenciamento de **Usuários** (cadastro, login, autenticação)
@@ -72,7 +72,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 🛣️ Principais rotas
+## Principais rotas
 
 - `POST /auth/register` — Cadastro de usuário
 - `POST /auth/login` — Login (retorna JWT)
@@ -90,7 +90,7 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 - Senhas criptografadas com bcrypt
 - JWT em rotas protegidas
@@ -98,7 +98,6 @@ API para gerenciamento do seu portfólio pessoal, desenvolvida com [NestJS](http
 
 ---
 
-## 📄 Licença
+## Licença
 
-Projeto open-source para uso pessoal ou profissional.  
-Sinta-se livre para clonar, modificar e usar!
+Projeto open-source.  
